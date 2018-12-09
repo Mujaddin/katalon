@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>700febb6-fbd4-4c3a-9ccf-6db226ebbb6d</testCaseGuid>
    <variable>
-      <defaultValue>'Budi'</defaultValue>
+      <defaultValue>'SITI'</defaultValue>
       <description></description>
       <id>245889f8-d36d-4c9a-b409-4bc40b82d8d7</id>
       <masked>false</masked>
@@ -20,7 +20,7 @@
       <name>lastname</name>
    </variable>
    <variable>
-      <defaultValue>'soemarsono00000001@gmail.com'</defaultValue>
+      <defaultValue>'soemarsono990001@gmail.com'</defaultValue>
       <description></description>
       <id>bda03b3b-f2ba-436e-8643-681a6f064b0a</id>
       <masked>false</masked>
@@ -41,14 +41,14 @@
       <name>month</name>
    </variable>
    <variable>
-      <defaultValue>'1992'</defaultValue>
+      <defaultValue>'1990'</defaultValue>
       <description></description>
       <id>161bbee4-b4b8-4712-a8ef-88b14bd3e880</id>
       <masked>false</masked>
       <name>year</name>
    </variable>
    <variable>
-      <defaultValue>'L'</defaultValue>
+      <defaultValue>'P'</defaultValue>
       <description></description>
       <id>9f55a579-b289-49e5-a29c-dbbe2b3a8daf</id>
       <masked>false</masked>

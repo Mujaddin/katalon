@@ -56,3 +56,5 @@ WebUI.click(findTestObject('btn-register'))
 'Then I will be registered to facebook'
 WebUI.verifyElementPresent(findTestObject('Home/homePage'), 0)
 
+WebUI.closeBrowser()
+

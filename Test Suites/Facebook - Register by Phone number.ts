@@ -4,6 +4,7 @@
    <name>Facebook - Register by Phone number</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-10T00:30:35</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

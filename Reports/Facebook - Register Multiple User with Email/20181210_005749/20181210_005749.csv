@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Facebook - Register Multiple User with Email,Chrome 70.0.3538.110,,2018-12-10 00:57:54,2018-12-10 00:59:01,1m - 6.473s,FAILED
+,,,,,,
+Test Cases/Register Facebook by Email,Chrome 70.0.3538.110,,2018-12-10 00:57:55,2018-12-10 00:58:48,52.979s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,Given I already open browser,2018-12-10 00:57:57,2018-12-10 00:58:03,6.177s,PASSED
+"navigateToUrl(""https://www.facebook.com"")",Chrome 70.0.3538.110,When I input Facebook website,2018-12-10 00:58:03,2018-12-10 00:58:06,3.082s,PASSED
+"setText(findTestObject(""txt_nama_dpn""), firstname)",Chrome 70.0.3538.110,and input my firstname,2018-12-10 00:58:06,2018-12-10 00:58:07,1.025s,PASSED
+"setText(findTestObject(""txt_nama_blk""), lastname)",Chrome 70.0.3538.110,and input my lastname,2018-12-10 00:58:07,2018-12-10 00:58:08,0.492s,PASSED
+"setText(findTestObject(""txt_email_no_telp""), email)",Chrome 70.0.3538.110,and Input my Email,2018-12-10 00:58:08,2018-12-10 00:58:09,0.942s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-10 00:58:09,2018-12-10 00:58:12,3.072s,PASSED
+"setText(findTestObject(""txt_email_val""), email)",Chrome 70.0.3538.110,and input same email in email validation,2018-12-10 00:58:12,2018-12-10 00:58:12,0.402s,PASSED
+"setMaskedText(findTestObject(""txt_password""), password)",Chrome 70.0.3538.110,and Input password that i like,2018-12-10 00:58:12,2018-12-10 00:58:13,0.509s,PASSED
+"selectOptionByValue(findTestObject(""slt_day""), day, false)",Chrome 70.0.3538.110,and Input my birthdate,2018-12-10 00:58:13,2018-12-10 00:58:13,0.419s,PASSED
+"selectOptionByValue(findTestObject(""slt_month""), month, false)",Chrome 70.0.3538.110,,2018-12-10 00:58:13,2018-12-10 00:58:14,0.313s,PASSED
+"selectOptionByValue(findTestObject(""slt_year""), year, false)",Chrome 70.0.3538.110,,2018-12-10 00:58:14,2018-12-10 00:58:14,0.225s,PASSED
+"if (gender.toLowerCase() == ""l"")",Chrome 70.0.3538.110,and Input my gender with L or P,2018-12-10 00:58:14,2018-12-10 00:58:48,34.408s,FAILED
+,,,,,,
+Test Cases/Register Facebook by Email,Chrome 70.0.3538.110,,2018-12-10 00:58:48,2018-12-10 00:59:01,12.708s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,Given I already open browser,2018-12-10 00:58:48,2018-12-10 00:58:51,2.969s,PASSED
+"navigateToUrl(""https://www.facebook.com"")",Chrome 70.0.3538.110,When I input Facebook website,2018-12-10 00:58:51,2018-12-10 00:58:55,3.315s,PASSED
+"setText(findTestObject(""txt_nama_dpn""), firstname)",Chrome 70.0.3538.110,and input my firstname,2018-12-10 00:58:55,2018-12-10 00:58:55,0.235s,PASSED
+"setText(findTestObject(""txt_nama_blk""), lastname)",Chrome 70.0.3538.110,and input my lastname,2018-12-10 00:58:55,2018-12-10 00:58:55,0.230s,PASSED
+"setText(findTestObject(""txt_email_no_telp""), email)",Chrome 70.0.3538.110,and Input my Email,2018-12-10 00:58:55,2018-12-10 00:58:55,0.291s,PASSED
+delay(3),Chrome 70.0.3538.110,,2018-12-10 00:58:55,2018-12-10 00:58:58,3.001s,PASSED
+"setText(findTestObject(""txt_email_val""), email)",Chrome 70.0.3538.110,and input same email in email validation,2018-12-10 00:58:58,2018-12-10 00:58:59,0.406s,PASSED
+"setMaskedText(findTestObject(""txt_password""), password)",Chrome 70.0.3538.110,and Input password that i like,2018-12-10 00:58:59,2018-12-10 00:58:59,0.279s,PASSED
+"selectOptionByValue(findTestObject(""slt_day""), day, false)",Chrome 70.0.3538.110,and Input my birthdate,2018-12-10 00:58:59,2018-12-10 00:58:59,0.144s,PASSED
+"selectOptionByValue(findTestObject(""slt_month""), month, false)",Chrome 70.0.3538.110,,2018-12-10 00:58:59,2018-12-10 00:58:59,0.177s,PASSED
+"selectOptionByValue(findTestObject(""slt_year""), year, false)",Chrome 70.0.3538.110,,2018-12-10 00:58:59,2018-12-10 00:59:00,0.256s,PASSED
+"if (gender.toLowerCase() == ""l"")",Chrome 70.0.3538.110,and Input my gender with L or P,2018-12-10 00:59:00,2018-12-10 00:59:00,0.000s,PASSED
+"else if (gender.toLowerCase() == ""p"")",Chrome 70.0.3538.110,,2018-12-10 00:59:00,2018-12-10 00:59:00,0.100s,PASSED
+"click(findTestObject(""btn-register""))",Chrome 70.0.3538.110,and Click Register Button,2018-12-10 00:59:00,2018-12-10 00:59:00,0.274s,PASSED
+"verifyElementPresent(findTestObject(""Home/homePage""), 0)",Chrome 70.0.3538.110,Then I will be registered to facebook,2018-12-10 00:59:00,2018-12-10 00:59:00,0.078s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-10 00:59:00,2018-12-10 00:59:01,0.910s,PASSED

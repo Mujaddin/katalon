@@ -4,6 +4,7 @@
    <name>Facebook - Register Multiple User with Email</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-10T01:01:11</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

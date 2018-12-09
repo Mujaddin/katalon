@@ -8,8 +8,8 @@
    <dataFileGUID>85144d9d-8171-48ff-8771-4d30ba44a294</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Budi Soemarsono dono12%40gmail.com 23 Jan 1992 P P%4033ssdw0</data>
-   <data>Budi Soetadji surima0912%40gmail.com 09 Jul 1980 L 12P%40%23kkds</data>
+   <data>Soni Soemarsono dono12%40gmail.com 23 1 1992 L P%4033ssdw0</data>
+   <data>Siti Soetadji surima0912%40gmail.com 9 7 1980 P 12P%40%23kkds</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>firstname</name>
